@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-dotenv.config();
+dotenv.config(); 
 
 const port = 8080;
 
@@ -13,6 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 app.use(cors());
+
 app.use('/api/v1/user', userRoutes);
 
 app.get("/", (req, res)=> {
