@@ -15,6 +15,10 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors());
 app.use('/api/v1/user', userRoutes);
 
+app.get("/", (req, res)=> {
+    res.send("connected")
+})
+
 const startServer = async () => {
     await mongoose.connect(process.env.MONGO_URL);
     console.log('Database connected');
