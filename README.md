@@ -6,4 +6,10 @@ React.js
 Node.js
 MongoDB
 
+#### Design
+MaterialUI
+
+#### Implemented
+Socket.io
+Google-oAuth2
 
