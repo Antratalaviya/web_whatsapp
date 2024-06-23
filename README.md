@@ -1,6 +1,6 @@
 # web_whatsapp
 
-web Whatsapp clone using MERN stack, implemented Web Socket for real time chat at back-end and for login using google-oauth2 at front-end.
+web Whatsapp clone using MERN stack, implemented Web Socket for real time chat at back-end and for login using google-oauth2 at front-end. User can login themselves and do real time chat with each other.
 
 ##### Tech Stack Used
 - MongoDB
@@ -15,14 +15,10 @@ MaterialUI
 - Socket.io
 - Google-oAuth2
 
-##### Hands on Experience with:
-- firebase Integration
-- multer
-- swagger
-
 ##### Features
-- login
+- login using google
 - real-time chat
+- can share text and file content
 
 # Environment vars
 This project uses the following environment variables:
